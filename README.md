@@ -10,8 +10,3 @@ This fork contains 2 parts.
 2. Optimised version of the above codes(kernel, host and makefile) using OpenCL Pipes run on the same FPGA platform.
 
 
-/*# Citation
-Citation information will be updated shortly.
-*/
-# License
-Copyright (c) 2019, University of North Carolina at Charlotte All rights reserved. - see the [LICENSE](https://github.com/TeCSAR-UNCC/OPENCL-FPGA-CU_REPLICATION/blob/master/LICENSE.md/LICENSE.md) file for details.
