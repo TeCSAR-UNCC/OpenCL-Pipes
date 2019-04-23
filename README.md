@@ -1,7 +1,7 @@
 # OpenCL-Pipes
 Implementing OpenCL Pipes for Rodinia applications on Xilinx FPGAs
 
-![Tecsar](/img/tecsarPowerBy.png)
+![Tecsar](/tecsar_logo.png)
 
 This fork contains 2 parts.
 
