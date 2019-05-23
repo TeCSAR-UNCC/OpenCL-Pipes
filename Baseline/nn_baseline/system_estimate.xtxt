@@ -1,0 +1,39 @@
+===============================================================================
+Version:    xocc v2017.4 (64-bit)
+Build:      SW Build 2193837 on Tue Apr 10 18:06:59 MDT 2018
+Copyright:  Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+Created:    Thu Apr 25 23:35:38 2019
+===============================================================================
+
+-------------------------------------------------------------------------------
+Design Name:             krnl_nn.hw.xilinx_aws-vu9p-f1-04261818_dynamic_5_0
+Target Device:           xilinx:aws-vu9p-f1-04261818:dynamic:5.0
+Target Clock:            
+Total number of kernels: 1
+-------------------------------------------------------------------------------
+
+Kernel Summary
+Kernel Name      Type  Target              OpenCL Library                                      Compute Units
+---------------  ----  ------------------  --------------------------------------------------  -------------
+NearestNeighbor  clc   fpga0:OCL_REGION_0  krnl_nn.hw.xilinx_aws-vu9p-f1-04261818_dynamic_5_0  1
+
+
+-------------------------------------------------------------------------------
+OpenCL Binary:     krnl_nn.hw.xilinx_aws-vu9p-f1-04261818_dynamic_5_0
+Kernels mapped to: clc_region
+
+Timing Information (MHz)
+Compute Unit       Kernel Name      Module Name      Target Frequency  Estimated Frequency
+-----------------  ---------------  ---------------  ----------------  -------------------
+NearestNeighbor_1  NearestNeighbor  NearestNeighbor  250               335.570465
+
+Latency Information (clock cycles)
+Compute Unit       Kernel Name      Module Name      Start Interval  Best Case  Avg Case  Worst Case
+-----------------  ---------------  ---------------  --------------  ---------  --------  ----------
+NearestNeighbor_1  NearestNeighbor  NearestNeighbor  undef           undef      undef     undef
+
+Area Information
+Compute Unit       Kernel Name      Module Name      FF    LUT   DSP  BRAM
+-----------------  ---------------  ---------------  ----  ----  ---  ----
+NearestNeighbor_1  NearestNeighbor  NearestNeighbor  5145  4587  16   4
+-------------------------------------------------------------------------------
