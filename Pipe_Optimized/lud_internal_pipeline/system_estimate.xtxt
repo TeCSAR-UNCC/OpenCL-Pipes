@@ -1,0 +1,47 @@
+===============================================================================
+Version:    xocc v2017.4 (64-bit)
+Build:      SW Build 2193837 on Tue Apr 10 18:06:59 MDT 2018
+Copyright:  Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+Created:    Tue May 14 19:07:57 2019
+===============================================================================
+
+-------------------------------------------------------------------------------
+Design Name:             lud.hw.xilinx_aws-vu9p-f1-04261818_dynamic_5_0
+Target Device:           xilinx:aws-vu9p-f1-04261818:dynamic:5.0
+Target Clock:            
+Total number of kernels: 3
+-------------------------------------------------------------------------------
+
+Kernel Summary
+Kernel Name           Type  Target              OpenCL Library                                  Compute Units
+--------------------  ----  ------------------  ----------------------------------------------  -------------
+lud_internal_compute  clc   fpga0:OCL_REGION_0  lud.hw.xilinx_aws-vu9p-f1-04261818_dynamic_5_0  1
+lud_internal_wb       clc   fpga0:OCL_REGION_0  lud.hw.xilinx_aws-vu9p-f1-04261818_dynamic_5_0  1
+lud_internal_read     clc   fpga0:OCL_REGION_0  lud.hw.xilinx_aws-vu9p-f1-04261818_dynamic_5_0  1
+
+
+-------------------------------------------------------------------------------
+OpenCL Binary:     lud.hw.xilinx_aws-vu9p-f1-04261818_dynamic_5_0
+Kernels mapped to: clc_region
+
+Timing Information (MHz)
+Compute Unit            Kernel Name           Module Name           Target Frequency  Estimated Frequency
+----------------------  --------------------  --------------------  ----------------  -------------------
+lud_internal_wb_1       lud_internal_wb       lud_internal_wb       250               342.465759
+lud_internal_read_1     lud_internal_read     lud_internal_read     250               342.465759
+lud_internal_compute_1  lud_internal_compute  lud_internal_compute  250               350.877197
+
+Latency Information (clock cycles)
+Compute Unit            Kernel Name           Module Name           Start Interval  Best Case  Avg Case  Worst Case
+----------------------  --------------------  --------------------  --------------  ---------  --------  ----------
+lud_internal_wb_1       lud_internal_wb       lud_internal_wb       undef           undef      undef     undef
+lud_internal_read_1     lud_internal_read     lud_internal_read     undef           undef      undef     undef
+lud_internal_compute_1  lud_internal_compute  lud_internal_compute  undef           undef      undef     undef
+
+Area Information
+Compute Unit            Kernel Name           Module Name           FF    LUT   DSP  BRAM
+----------------------  --------------------  --------------------  ----  ----  ---  ----
+lud_internal_wb_1       lud_internal_wb       lud_internal_wb       2205  2805  8    2
+lud_internal_read_1     lud_internal_read     lud_internal_read     4476  3945  36   2
+lud_internal_compute_1  lud_internal_compute  lud_internal_compute  6461  7869  32   16
+-------------------------------------------------------------------------------
