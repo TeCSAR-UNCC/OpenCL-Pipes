@@ -13,6 +13,6 @@ This fork contains 2 parts.
 Citation information will be updated shortly.
 
 # License
-Copyright (c) 2019, University of North Carolina at Charlotte All rights reserved. - see the [LICENSE](https://github.com/TeCSAR-UNCC/OpenCL-Pipes/tree/master/LICENSE.md) file for details.
+Copyright (c) 2019, University of North Carolina at Charlotte All rights reserved. - see the [LICENSE](https://github.com/TeCSAR-UNCC/OpenCL-Pipes/blob/master/LICENSE.md/LICENSE.md) file for details.
 
 
